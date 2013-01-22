@@ -1,0 +1,43 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.0.8)
+    columnize (0.3.6)
+    debugger (1.2.4)
+      columnize (>= 0.3.1)
+      debugger-linecache (~> 1.1.1)
+      debugger-ruby_core_source (~> 1.1.7)
+    debugger-linecache (1.1.2)
+      debugger-ruby_core_source (>= 1.1.1)
+    debugger-ruby_core_source (1.1.7)
+    faraday (0.8.4)
+      multipart-post (~> 1.1)
+    httpauth (0.2.0)
+    jwt (0.1.5)
+      multi_json (>= 1.0)
+    method_source (0.8.1)
+    multi_json (1.5.0)
+    multipart-post (1.1.5)
+    oauth2 (0.8.0)
+      faraday (~> 0.8)
+      httpauth (~> 0.1)
+      jwt (~> 0.1.4)
+      multi_json (~> 1.0)
+      rack (~> 1.2)
+    pry (0.9.11.4)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    pry-debugger (0.2.1)
+      debugger (~> 1.2.0)
+      pry (~> 0.9.10)
+    rack (1.4.4)
+    slop (3.4.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  oauth2
+  pry
+  pry-debugger
